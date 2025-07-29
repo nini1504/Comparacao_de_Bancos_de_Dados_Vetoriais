@@ -1,4 +1,4 @@
-//O objetivo desse é código é gerar embeddings de textos de acordo com o modelo e5-small-v2
+# O objetivo desse é código é gerar embeddings de textos de acordo com o modelo e5-small-v2
 
 
 import torch.nn.functional as F
