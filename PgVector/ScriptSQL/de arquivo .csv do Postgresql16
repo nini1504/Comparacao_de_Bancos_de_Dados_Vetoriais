@@ -1,0 +1,9 @@
+
+# Para esse caso, o seu arquivo .csv já precisar estar criado 
+
+# acessando o BD: psql -U seu_usuario -U nome_database
+psql -U postgres -U biblia
+
+# Copiar o conteúdo da tabela/consulta para um .csv
+\COPY bible_embeddings TO '/Users/nicol/Downloads/export_embeddings_biblia_excel.csv' DELIMITER ',' CSV HEADER;
+
