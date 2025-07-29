@@ -1,3 +1,7 @@
+//O objetivvo desse código e fazer a inserção de arquivos JSONs que estão armazenados localmente, no Banco de Dados Postgresql16
+//Meu banco contém a tabela bíblia, que possui os campos, id, livro da bíblia, capítulo, versículo e o embedding do texto do versículo
+
+
 import json
 import psycopg2
 from psycopg2.extras import execute_batch
